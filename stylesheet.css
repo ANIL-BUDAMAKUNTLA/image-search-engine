@@ -87,3 +87,47 @@ form button {
   font-size: 300%;
   display: none;
 }
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 150%;
+    margin: 10px auto 5px;
+  }
+
+  form {
+    height: 50px;
+  }
+
+  form input {
+    font-size: 14px;
+    padding: 0 15px;
+  }
+
+  form button {
+    padding: 0 20px;
+    font-size: 14px;
+  }
+
+  ::placeholder {
+    font-size: 14px;
+  }
+
+  #more {
+    margin: 10px auto 10px;
+  }
+
+  #search-result {
+    width: 100%;
+    display : block;
+    margin: 10px auto 5px;
+  }
+
+  #search-result img {
+    width : 100%;
+    margin: 10px;
+  }
+
+  #oops {
+    font-size: 150%;
+  }
+}
