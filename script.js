@@ -33,7 +33,7 @@ async function searchImages() {
   });
   console.log(keyword);
 
-  if (keyword.length > 0 && results.length > 0) {
+   if (keyword.length > 0 && ((results.length > 0)||(page>1))) {
     oops.style.display = "none";
     more.style.display = "block";
   } else {
